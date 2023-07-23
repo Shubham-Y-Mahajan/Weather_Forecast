@@ -5,6 +5,7 @@ from backend import get_forecast
 from backend import display
 
 st.title("Weather Forecast ")
+
 place=st.text_input("Place:",help="Type an existing District/City (example- Thane, Bhilai , Durg)")
 
 
@@ -27,6 +28,7 @@ if place:
         st.info("Please Enter a valid Place Argument")
 
 
+st.info("This WebApp was made by Shubham Yogesh Mahajan of IIT Bhilai")
 
 
 
